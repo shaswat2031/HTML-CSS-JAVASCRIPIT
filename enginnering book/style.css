@@ -1,0 +1,88 @@
+body {
+    background-color: #1d1f27; /* Dark background inspired by Avengers */
+    color: #fff; /* White text color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff4040; /* Bright red header background inspired by Mario */
+    padding: 10px 0;
+}
+
+h1 {
+    color: #fff; /* White header text color */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Super Mario', sans-serif; /* Mario-inspired font */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+/* Center-align the navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center-align the navigation links */
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+
+nav ul li a {
+    color: #fff; /* White navigation link color */
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: 'Super Mario', sans-serif; /* Mario-inspired font */
+}
+
+nav ul li a:hover {
+    color: #ffaa00; /* Bright yellow on hover inspired by Mario */
+}
+
+main.article-grid {
+    background-color: #fff; /* White main content background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+h2 {
+    color: #ffaa00; /* Bright yellow heading color inspired by Mario */
+    font-family: 'Super Mario', sans-serif; /* Mario-inspired font */
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.content-button {
+    background-color: #ff4040; /* Bright red button background inspired by Mario */
+    color: #fff; /* White button text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: 'Super Mario', sans-serif; /* Mario-inspired font */
+}
+
+.content-button:hover {
+    background-color: #ffaa00; /* Bright yellow on hover inspired by Mario */
+}
+
+footer {
+    background-color: #1d1f27; /* Dark background inspired by Avengers */
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #fff; /* White footer text color */
+    font-family: 'Arial', sans-serif;
+}
