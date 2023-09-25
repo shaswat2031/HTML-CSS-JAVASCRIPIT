@@ -1,0 +1,81 @@
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffeaaf; /* Light yellow background inspired by Chhota Bheem */
+    color: #333; /* Dark text color */
+    font-size: 16px;
+}
+
+header {
+    background-color: #ff5c00; /* Orange header background inspired by Chhota Bheem */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.heading {
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: 'Comic Sans MS', sans-serif; /* Fun and playful font */
+    animation: colorChange 3s infinite; /* Color-changing animation */
+}
+
+@keyframes colorChange {
+    0% {
+        color: #ff5c00; /* Orange */
+    }
+    25% {
+        color: #ffeaaf; /* Light yellow */
+    }
+    50% {
+        color: #ff0080; /* Pink */
+    }
+    75% {
+        color: #006bff; /* Blue */
+    }
+    100% {
+        color: #ff5c00; /* Orange */
+    }
+}
+
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.note {
+    background-color: #fff; /* White note background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: calc(33.33% - 20px); /* Three notes in one row with spacing */
+}
+
+.note h2 {
+    color: #ff5c00; /* Orange note heading color */
+    font-size: 24px;
+}
+
+.note p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #ff5c00; /* Orange footer background inspired by Chhota Bheem */
+    color: #fff; /* White footer text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-family: 'Comic Sans MS', sans-serif; /* Fun and playful font for the footer */
+}

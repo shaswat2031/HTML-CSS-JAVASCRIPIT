@@ -1,0 +1,185 @@
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Animation 1 */
+@keyframes animation1 {
+    /* Define animation properties for the first animation */
+}
+
+/* Animation 2 */
+@keyframes animation2 {
+    /* Define animation properties for the second animation */
+}
+
+/* Animation 3 */
+@keyframes animation3 {
+    /* Define animation properties for the third animation */
+}
+
+/* Animation 4 */
+@keyframes animation4 {
+    /* Define animation properties for the fourth animation */
+}
+
+/* Animation 5 */
+@keyframes animation5 {
+    /* Define animation properties for the fifth animation */
+}
+
+body {
+    background-color: #0c4b6a; /* Dark blue background inspired by technology */
+    color: #fff; /* White text color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+header {
+    background-color: #ff6b6b; /* Vibrant red header background */
+    padding: 10px 0;
+}
+
+h1 {
+    color: #fff; /* White header text color */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Super Mario', sans-serif;
+    text-transform: uppercase;
+    animation: bounce 2s infinite; /* Bouncing animation */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Center-align the navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffaa00;
+}
+
+.main-container {
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white main content background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 2s; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h2 {
+    color: #ffaa00;
+    font-family: 'Super Mario', sans-serif;
+    animation: rotateScale 2s infinite; /* Rotation and scaling animation */
+}
+
+
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    animation: slideIn 2s; /* Slide-in animation */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.content-button {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: 'Super Mario', sans-serif;
+    animation: pulse 2s infinite; /* Pulse animation */
+}
+
+.content-button:hover {
+    background-color: #ffaa00;
+}
+/* Add this new animation to your CSS */
+@keyframes customAnimation {
+    0% {
+        /* Define the initial state of your animation here */
+        /* Example: opacity: 0; */
+    }
+    50% {
+        /* Define a middle state of your animation here */
+        /* Example: opacity: 1; */
+    }
+    100% {
+        /* Define the final state of your animation here */
+        /* Example: opacity: 0; */
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+footer {
+    background-color: #0c4b6a;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}

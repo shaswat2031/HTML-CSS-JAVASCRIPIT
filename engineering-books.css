@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1d1d1d; /* Dark background */
+    color: #fff; /* White text color */
+}
+
+header {
+    background-color: #ff5500; /* Bright red header background */
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #fff; /* White header text color */
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    color: #ff5500; /* Bright red navigation link color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffaa00; /* Bright yellow on hover */
+}
+
+main.book-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.book-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.book-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.book-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-details h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.book-actions {
+    margin-top: 15px;
+}
+
+.download-button,
+.buy-button {
+    background-color: #ff5500; /* Bright red button background */
+    color: #fff; /* White button text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 5px;
+    display: inline-block;
+}
+
+.download-button:hover,
+.buy-button:hover {
+    background-color: #ff9900; /* Bright orange on hover */
+}

@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    line-height: 1.6;
+    color: #333; /* Dark gray text color */
+}
+
+/* Header styles */
+header {
+    background-color: #ea5541; /* Orange header background color */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 3px solid #a40e0e;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #f09c7e; /* Lighter orange color on hover */
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headers */
+h2 {
+    font-size: 24px;
+    color: #ea5541; /* Orange section header color */
+    margin-top: 20px;
+}
+
+/* Highlighted text */
+.highlight {
+    color: #ea5541; /* Orange highlight color */
+    font-weight: bold;
+}
+
+/* Paragraph text */
+p {
+    font-size: 16px;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #ea5541; /* Orange footer background color */
+    color: #fff;
+    padding: 1rem 10px;
+}
